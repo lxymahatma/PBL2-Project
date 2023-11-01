@@ -51,6 +51,7 @@
      <Folder Include="Assets/ExampleAssets" />
      <Folder Include="Assets/ExampleAssets/Shaders" />
      <Folder Include="Assets/ExampleAssets/Tutorial/Images" />
+     <Folder Include="Assets/StreamingAssets" />
      <Folder Include="Assets/Scenes" />
      <Folder Include="Assets/XR/Loaders" />
      <Folder Include="Assets/XR/UserSimulationSettings/Resources" />
@@ -58,11 +59,15 @@
      <Folder Include="Assets/ExampleAssets/Prefabs" />
      <Folder Include="Assets/ExampleAssets/Models" />
      <Folder Include="Assets/ExampleAssets/Scripts" />
+     <Folder Include="Assets/Resources" />
      <Folder Include="Assets/ExampleAssets/Materials" />
      <Folder Include="Assets/ExampleAssets/Textures" />
+     <None Include="Assets/StreamingAssets/Vuforia/VuforiaMars_Images.xml" />
      <Folder Include="Assets/ExampleAssets/Tutorial" />
+     <Folder Include="Assets/StreamingAssets/Vuforia" />
      <Folder Include="Assets/XR/UserSimulationSettings" />
      <None Include="Assets/ExampleAssets/Shaders/FeatheredPlaneShader.shader" />
+     <None Include="Assets/StreamingAssets/Vuforia/Kanji.xml" />
      <Folder Include="Assets/XR/Settings" />
      <Folder Include="Assets/ExampleAssets/Scenes" />
      <Folder Include="Assets/XR/Resources" />

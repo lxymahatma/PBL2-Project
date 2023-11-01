@@ -46,8 +46,20 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets/Editor/Migration/AddVuforiaEnginePackage.cs" />
+     <Folder Include="Assets/Editor/Vuforia/CylinderTargetTextures" />
+     <Folder Include="Assets/Editor/Vuforia/ForPrint/ImageTargets" />
+     <Folder Include="Assets/Editor/Vuforia/ForPrint/CylinderTarget" />
+     <Folder Include="Assets/Editor/Vuforia/ForPrint/MultiTarget" />
      <Folder Include="Assets/Editor" />
+     <Folder Include="Assets/Editor/Vuforia/ForPrint" />
+     <Folder Include="Assets/Editor/Vuforia/ImageTargetTextures/VuforiaEmulator" />
+     <Folder Include="Assets/Editor/Vuforia/ImageTargetTextures/Kanji" />
      <Folder Include="Assets/Editor/Migration" />
+     <Folder Include="Assets/Editor/Vuforia/CylinderTargetTextures/VuforiaMars_Images" />
+     <Folder Include="Assets/Editor/Vuforia/ImageTargetTextures/VuforiaMars_Images" />
+     <Folder Include="Assets/Editor/Vuforia" />
+     <Folder Include="Assets/Editor/Vuforia/ImageTargetTextures" />
+     <None Include="Assets/Editor/Vuforia/CylinderTargetTextures/VuforiaMars_Images/authoringinfo.xml" />
      <Reference Include="UnityEngine">
      <HintPath>/Applications/Unity/Hub/Editor/2022.3.10f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
      </Reference>
