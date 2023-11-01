@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638325973010000000
-    m_Hash: 2755713385
+      ticks: 638344098760000000
+    m_Hash: 649663044
   m_LockFileStatus:
     m_FilePath: /Users/ryuushinu/Documents/GitHub/PBL2-Project/PBL2/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638325973090000000
-    m_Hash: 149572191
+      ticks: 638344098760000000
+    m_Hash: 3538371056
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -58,7 +58,13 @@ m_ResolvedPackages:
   status: 0
   errors: []
   versions:
-    all: []
+    all:
+    - 8.0.101
+    - 8.1.9
+    - 8.1.12
+    - 8.3.9
+    - 8.5.8
+    - 8.5.9
     compatible: []
     recommended: 
     deprecated: []
@@ -197,12 +203,14 @@ m_ResolvedPackages:
     - 2.1.0-preview.5
     - 2.1.0-preview.6
     - 2.1.0
+    - 2.2.0
     compatible:
     - 2.0.7
     - 2.1.0-preview.3
     - 2.1.0-preview.5
     - 2.1.0-preview.6
     - 2.1.0
+    - 2.2.0
     recommended: 2.0.7
     deprecated: []
   dependencies: []
@@ -423,7 +431,7 @@ m_ResolvedPackages:
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
   - name: com.unity.ide.rider
-    version: 3.0.25
+    version: 3.0.26
   - name: com.unity.ide.vscode
     version: 1.2.5
   - name: com.unity.editorcoroutines
@@ -461,12 +469,12 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.ide.rider@3.0.25
+- packageId: com.unity.ide.rider@3.0.26
   testable: 0
   isDirectDependency: 1
-  version: 3.0.25
+  version: 3.0.26
   source: 1
-  resolvedPath: /Users/ryuushinu/Documents/GitHub/PBL2-Project/PBL2/Library/PackageCache/com.unity.ide.rider@3.0.25
+  resolvedPath: /Users/ryuushinu/Documents/GitHub/PBL2-Project/PBL2/Library/PackageCache/com.unity.ide.rider@3.0.26
   assetPath: Packages/com.unity.ide.rider
   name: com.unity.ide.rider
   displayName: JetBrains Rider Editor
@@ -522,10 +530,12 @@ m_ResolvedPackages:
     - 3.0.22
     - 3.0.24
     - 3.0.25
+    - 3.0.26
     compatible:
     - 3.0.24
     - 3.0.25
-    recommended: 3.0.25
+    - 3.0.26
+    recommended: 3.0.26
     deprecated: []
   dependencies:
   - name: com.unity.ext.nunit
@@ -544,13 +554,13 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638300315270000000
+  datePublishedTicks: 638326061920000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.ide.rider@3.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.rider.git
-    revision: e103b4771a884e656407e1b7219e5e3c20222552
+    revision: 2b29b1152946c13d1ecebf6fc681a59cd8b4d399
     path: 
   unityLifecycle:
     version: 3.0.24
@@ -857,12 +867,12 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.timeline@1.7.5
+- packageId: com.unity.timeline@1.7.6
   testable: 0
   isDirectDependency: 1
-  version: 1.7.5
+  version: 1.7.6
   source: 1
-  resolvedPath: /Users/ryuushinu/Documents/GitHub/PBL2-Project/PBL2/Library/PackageCache/com.unity.timeline@1.7.5
+  resolvedPath: /Users/ryuushinu/Documents/GitHub/PBL2-Project/PBL2/Library/PackageCache/com.unity.timeline@1.7.6
   assetPath: Packages/com.unity.timeline
   name: com.unity.timeline
   displayName: Timeline
@@ -955,21 +965,25 @@ m_ResolvedPackages:
     - 1.7.3
     - 1.7.4
     - 1.7.5
+    - 1.7.6
     - 1.8.0
     - 1.8.1
     - 1.8.2
     - 1.8.3
     - 1.8.4
     - 1.8.5
+    - 1.8.6
     compatible:
     - 1.7.5
+    - 1.7.6
     - 1.8.0
     - 1.8.1
     - 1.8.2
     - 1.8.3
     - 1.8.4
     - 1.8.5
-    recommended: 1.7.5
+    - 1.8.6
+    recommended: 1.7.6
     deprecated: []
   dependencies:
   - name: com.unity.modules.director
@@ -1005,13 +1019,13 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638229649600000000
+  datePublishedTicks: 638326112840000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.timeline@1.7/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.timeline.git
-    revision: fdb1ca9a2c2a131e0ff9cb257b2eae3b53337b3a
+    revision: 02f49ada64a9f88044207cf42ba407dc634ef8e6
     path: 
   unityLifecycle:
     version: 1.7.5
@@ -1233,6 +1247,7 @@ m_ResolvedPackages:
     - 4.2.6
     - 4.2.7
     - 4.2.8
+    - 4.2.9
     - 5.0.0-pre.5
     - 5.0.0-pre.6
     - 5.0.0-pre.7
@@ -1486,6 +1501,7 @@ m_ResolvedPackages:
     - 4.2.6
     - 4.2.7
     - 4.2.8
+    - 4.2.9
     - 5.0.0-pre.5
     - 5.0.0-pre.6
     - 5.0.0-pre.7
@@ -3915,6 +3931,7 @@ m_ResolvedPackages:
     - 4.2.6
     - 4.2.7
     - 4.2.8
+    - 4.2.9
     - 5.0.0-pre.5
     - 5.0.0-pre.6
     - 5.0.0-pre.7
@@ -4391,11 +4408,13 @@ m_ResolvedPackages:
     - 2.0.18
     - 2.0.20
     - 2.0.21
+    - 2.0.22
     compatible:
     - 2.0.18
     - 2.0.20
     - 2.0.21
-    recommended: 2.0.21
+    - 2.0.22
+    recommended: 2.0.22
     deprecated: []
   dependencies:
   - name: com.unity.test-framework
@@ -5020,8 +5039,10 @@ m_ResolvedPackages:
     - 1.8.0
     - 1.8.1
     - 1.8.2
+    - 1.9.1
     compatible:
     - 1.8.2
+    - 1.9.1
     recommended: 1.8.2
     deprecated: []
   dependencies:

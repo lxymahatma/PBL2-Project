@@ -318,11 +318,11 @@
      <Reference Include="ReportGeneratorMerged">
      <HintPath>/Users/ryuushinu/Documents/GitHub/PBL2-Project/PBL2/Library/PackageCache/com.unity.testtools.codecoverage@1.2.4/lib/ReportGenerator/ReportGeneratorMerged.dll</HintPath>
      </Reference>
-     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-     <HintPath>/Users/ryuushinu/Documents/GitHub/PBL2-Project/PBL2/Library/PackageCache/com.unity.visualscripting@1.9.1/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
-     </Reference>
      <Reference Include="Vuforia.Unity.Wrapper">
      <HintPath>/Users/ryuushinu/Documents/GitHub/PBL2-Project/PBL2/Library/PackageCache/com.ptc.vuforia.engine@6952f4478255/Vuforia/Plugins/Managed/Runtime/Vuforia.Unity.Wrapper.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
+     <HintPath>/Users/ryuushinu/Documents/GitHub/PBL2-Project/PBL2/Library/PackageCache/com.unity.visualscripting@1.9.1/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
      </Reference>
      <Reference Include="Vuforia.Unity.Engine">
      <HintPath>/Users/ryuushinu/Documents/GitHub/PBL2-Project/PBL2/Library/PackageCache/com.ptc.vuforia.engine@6952f4478255/Vuforia/Plugins/Managed/Runtime/Vuforia.Unity.Engine.dll</HintPath>
@@ -759,17 +759,14 @@
      <Reference Include="Unity.XR.OpenXR">
      <HintPath>/Users/ryuushinu/Documents/GitHub/PBL2-Project/PBL2/Library/ScriptAssemblies/Unity.XR.OpenXR.dll</HintPath>
      </Reference>
-     <Reference Include="Unity.XR.ARAnalytics.Editor">
-     <HintPath>/Users/ryuushinu/Documents/GitHub/PBL2-Project/PBL2/Library/ScriptAssemblies/Unity.XR.ARAnalytics.Editor.dll</HintPath>
+     <Reference Include="VuforiaScripts">
+     <HintPath>/Users/ryuushinu/Documents/GitHub/PBL2-Project/PBL2/Library/ScriptAssemblies/VuforiaScripts.dll</HintPath>
      </Reference>
      <Reference Include="Unity.XR.ARSubsystems">
      <HintPath>/Users/ryuushinu/Documents/GitHub/PBL2-Project/PBL2/Library/ScriptAssemblies/Unity.XR.ARSubsystems.dll</HintPath>
      </Reference>
      <Reference Include="Unity.XR.OpenXR.Features.MetaQuestSupport">
      <HintPath>/Users/ryuushinu/Documents/GitHub/PBL2-Project/PBL2/Library/ScriptAssemblies/Unity.XR.OpenXR.Features.MetaQuestSupport.dll</HintPath>
-     </Reference>
-     <Reference Include="VuforiaScripts">
-     <HintPath>/Users/ryuushinu/Documents/GitHub/PBL2-Project/PBL2/Library/ScriptAssemblies/VuforiaScripts.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Performance.Profile-Analyzer.Editor">
      <HintPath>/Users/ryuushinu/Documents/GitHub/PBL2-Project/PBL2/Library/ScriptAssemblies/Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
@@ -779,6 +776,9 @@
      </Reference>
      <Reference Include="Unity.XR.Management.Editor">
      <HintPath>/Users/ryuushinu/Documents/GitHub/PBL2-Project/PBL2/Library/ScriptAssemblies/Unity.XR.Management.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.XR.ARAnalytics.Editor">
+     <HintPath>/Users/ryuushinu/Documents/GitHub/PBL2-Project/PBL2/Library/ScriptAssemblies/Unity.XR.ARAnalytics.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.XR.ARCore.Editor">
      <HintPath>/Users/ryuushinu/Documents/GitHub/PBL2-Project/PBL2/Library/ScriptAssemblies/Unity.XR.ARCore.Editor.dll</HintPath>
