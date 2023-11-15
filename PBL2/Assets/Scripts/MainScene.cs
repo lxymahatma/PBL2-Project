@@ -1,28 +1,8 @@
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
-public class MainScene : MonoBehaviour
+namespace Scripts
 {
-    private void Awake()
+    public class MainScene : MonoBehaviour
     {
-        SceneManager.sceneLoaded += (_, _) => OnSceneLoaded();
-    }
-
-    private static void OnSceneLoaded()
-    {
-        if (InfomationProvider.LoadType == LoadType.Recognize)
-            LoadRecognize();
-        else
-            LoadWrite();
-    }
-
-    private static void LoadRecognize()
-    {
-        Debug.Log("LoadRecognize");
-    }
-
-    private static void LoadWrite()
-    {
-        Debug.Log("LoadWrite");
     }
 }

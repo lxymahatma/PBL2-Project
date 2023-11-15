@@ -762,6 +762,7 @@ PlayerSettings:
     iPhone: 1
   scriptingBackend:
     Android: 1
+    Server: 0
   il2cppCompilerConfiguration: {}
   il2cppCodeGeneration: {}
   managedStrippingLevel:

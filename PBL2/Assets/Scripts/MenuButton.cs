@@ -1,13 +1,12 @@
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
-public class MenuButton : MonoBehaviour
+namespace Scripts
 {
-    public LoadType LoadType;
-
-    public void OnClick()
+    public class MenuButton : MonoBehaviour
     {
-        SceneManager.LoadSceneAsync("MainScene");
-        InfomationProvider.LoadType = LoadType;
+        [SerializeField]
+        private LoadType loadType;
+
+        public void OnClick() => SceneManagerExt.LoadMainScene(loadType);
     }
 }

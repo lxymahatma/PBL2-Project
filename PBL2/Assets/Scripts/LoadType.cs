@@ -1,5 +1,8 @@
-public enum LoadType
+namespace Scripts
 {
-    Recognize,
-    Write
+    public enum LoadType
+    {
+        Recognize,
+        Write
+    }
 }
