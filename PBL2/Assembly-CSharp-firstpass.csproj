@@ -41,16 +41,21 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Folder Include="Assets\Plugins" />
-     <Folder Include="Assets\Plugins\Lumin" />
+     <Folder Include="Assets/Plugins/iOS" />
+     <Folder Include="Assets/Plugins/Win" />
+     <Folder Include="Assets/Plugins" />
+     <Folder Include="Assets/Plugins/Android" />
+     <Folder Include="Assets/Plugins/Lumin" />
+     <Folder Include="Assets/Plugins/Android/Libs" />
+     <Folder Include="Assets/Plugins/Android/Libs/arm64-v8a" />
      <Reference Include="UnityEngine">
-     <HintPath>E:\Unity\2022.3.10f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
+     <HintPath>/Applications/Unity/Hub/Editor/2022.3.10f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.CoreModule">
-     <HintPath>E:\Unity\2022.3.10f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll</HintPath>
+     <HintPath>/Applications/Unity/Hub/Editor/2022.3.10f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor">
-     <HintPath>E:\Unity\2022.3.10f1\Editor\Data\Managed\UnityEngine\UnityEditor.dll</HintPath>
+     <HintPath>/Applications/Unity/Hub/Editor/2022.3.10f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.dll</HintPath>
      </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
