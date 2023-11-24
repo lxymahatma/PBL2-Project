@@ -7,7 +7,7 @@ namespace Scripts
     {
         public static void LoadMainScene(LoadType loadType)
         {
-            SceneManager.LoadSceneAsync("MainScene");
+            SceneManager.LoadScene("MainScene");
 
             switch (loadType)
             {
