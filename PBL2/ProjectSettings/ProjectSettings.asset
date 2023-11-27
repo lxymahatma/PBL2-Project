@@ -761,7 +761,7 @@ PlayerSettings:
   platformArchitecture:
     iPhone: 1
   scriptingBackend:
-    Android: 1
+    Android: 0
     Server: 0
   il2cppCompilerConfiguration: {}
   il2cppCodeGeneration: {}
