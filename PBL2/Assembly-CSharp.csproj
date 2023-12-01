@@ -869,6 +869,9 @@
      <Reference Include="Unity.XR.ARFoundation.InternalUtils">
      <HintPath>D:\C#\unity\PBL2-Project\PBL2\Library\ScriptAssemblies\Unity.XR.ARFoundation.InternalUtils.dll</HintPath>
      </Reference>
+     <Reference Include="Unity.Mobile.AndroidLogcat.Editor">
+     <HintPath>D:\C#\unity\PBL2-Project\PBL2\Library\ScriptAssemblies\Unity.Mobile.AndroidLogcat.Editor.dll</HintPath>
+     </Reference>
      <Reference Include="Unity.Mathematics">
      <HintPath>D:\C#\unity\PBL2-Project\PBL2\Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
      </Reference>
