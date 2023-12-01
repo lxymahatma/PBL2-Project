@@ -12,28 +12,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
   m_Name: ImageLibrary
   m_EditorClassIdentifier: 
-  m_GuidLow: 0
-  m_GuidHigh: 0
+  m_GuidLow: 5477755520913484851
+  m_GuidHigh: 18292868530855582362
   m_DataStore:
     m_Storage: []
   m_Images:
   - m_SerializedGuid:
-      m_GuidLow: 5585428691218656160
-      m_GuidHigh: 5370000022153692347
+      m_GuidLow: 5545254673673514393
+      m_GuidHigh: 14710444854370889123
     m_SerializedTextureGuid:
-      m_GuidLow: 8376313682954100377
-      m_GuidHigh: 15082782904798829242
-    m_Size: {x: 0.1, y: 0.1}
-    m_SpecifySize: 1
-    m_Name: fire
-    m_Texture: {fileID: 2800000, guid: 3fb91e99a4ea743eba5aded023cf50d1, type: 3}
-  - m_SerializedGuid:
-      m_GuidLow: 5362063824445444912
-      m_GuidHigh: 8635686137888136609
-    m_SerializedTextureGuid:
-      m_GuidLow: 16038646766687133077
-      m_GuidHigh: 14698468602576004136
+      m_GuidLow: 13327437896951085749
+      m_GuidHigh: 10201722451177959688
     m_Size: {x: 0.1, y: 0.1}
     m_SpecifySize: 1
     m_Name: yama
-    m_Texture: {fileID: 2800000, guid: 065a9d95b842de942864c6765173fbcb, type: 3}
+    m_Texture: {fileID: 2800000, guid: cdd93ab59227b8f408f196af84cc938d, type: 3}

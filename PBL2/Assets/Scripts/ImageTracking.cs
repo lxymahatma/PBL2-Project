@@ -11,29 +11,32 @@ namespace Scripts
         [SerializeField]
         private GameObject[] placeablePrefabs;
 
-        [SerializeField]
-        private ARTrackedImageManager arTrackedManager;
-
         private readonly Dictionary<string, GameObject> _spawnedPrefabs = new();
+
+        private ARTrackedImageManager _arTrackedManager;
 
         private void Awake()
         {
+            _arTrackedManager = FindObjectOfType<ARTrackedImageManager>();
+
             foreach (var prefab in placeablePrefabs)
             {
                 var newPrefab = Instantiate(prefab, Vector3.zero, Quaternion.identity);
                 newPrefab.name = prefab.name;
+                newPrefab.SetActive(false);
+
                 _spawnedPrefabs.Add(prefab.name, newPrefab);
             }
         }
 
         private void OnEnable()
         {
-            arTrackedManager.trackedImagesChanged += OnImageChanged;
+            _arTrackedManager.trackedImagesChanged += OnImageChanged;
         }
 
         private void OnDisable()
         {
-            arTrackedManager.trackedImagesChanged -= OnImageChanged;
+            _arTrackedManager.trackedImagesChanged -= OnImageChanged;
         }
 
         private void OnImageChanged(ARTrackedImagesChangedEventArgs args)

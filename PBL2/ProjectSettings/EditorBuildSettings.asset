@@ -6,11 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/MenuScene.unity
-    guid: 2a6dd118ffaaf439190c17eb8e6ddd62
-  - enabled: 1
     path: Assets/Scenes/MainScene.unity
-    guid: 3f2d52186ac5b4077a5cc0afbe0aecd1
+    guid: da6ef405bc2e36442970262e87f5caea
   m_configObjects:
     Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: 744b813df90924c169af73489b8325de,
       type: 2}
@@ -20,7 +17,7 @@ EditorBuildSettings:
       type: 2}
     com.unity.xr.arcore.PlayerSettings: {fileID: 11400000, guid: c2f7b8d7c0bff4d10874cbcf3f24af78,
       type: 2}
-    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 472d575e4030f4cef801e6b2082f4a49,
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 67b12220170908245a02019591496776,
       type: 2}
     com.unity.xr.arkit.PlayerSettings: {fileID: 11400000, guid: b27ec7d82a91a48e69fd689ad6808e5e,
       type: 2}
