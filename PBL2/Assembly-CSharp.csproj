@@ -860,17 +860,17 @@
      <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model">
      <HintPath>D:\C#\unity\PBL2-Project\PBL2\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
      </Reference>
-     <Reference Include="Unity.XR.ARKit.Editor">
-     <HintPath>D:\C#\unity\PBL2-Project\PBL2\Library\ScriptAssemblies\Unity.XR.ARKit.Editor.dll</HintPath>
+     <Reference Include="Unity.Mobile.AndroidLogcat.Editor">
+     <HintPath>D:\C#\unity\PBL2-Project\PBL2\Library\ScriptAssemblies\Unity.Mobile.AndroidLogcat.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.State.Editor">
      <HintPath>D:\C#\unity\PBL2-Project\PBL2\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
      </Reference>
+     <Reference Include="Unity.XR.ARKit.Editor">
+     <HintPath>D:\C#\unity\PBL2-Project\PBL2\Library\ScriptAssemblies\Unity.XR.ARKit.Editor.dll</HintPath>
+     </Reference>
      <Reference Include="Unity.XR.ARFoundation.InternalUtils">
      <HintPath>D:\C#\unity\PBL2-Project\PBL2\Library\ScriptAssemblies\Unity.XR.ARFoundation.InternalUtils.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.Mobile.AndroidLogcat.Editor">
-     <HintPath>D:\C#\unity\PBL2-Project\PBL2\Library\ScriptAssemblies\Unity.Mobile.AndroidLogcat.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Mathematics">
      <HintPath>D:\C#\unity\PBL2-Project\PBL2\Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>

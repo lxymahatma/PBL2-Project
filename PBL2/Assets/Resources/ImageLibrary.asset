@@ -27,3 +27,93 @@ MonoBehaviour:
     m_SpecifySize: 1
     m_Name: yama
     m_Texture: {fileID: 2800000, guid: cdd93ab59227b8f408f196af84cc938d, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5358157027326496226
+      m_GuidHigh: 6460563620318500232
+    m_SerializedTextureGuid:
+      m_GuidLow: 15876518196358065299
+      m_GuidHigh: 6115102732388557656
+    m_Size: {x: 0.1, y: 0.1}
+    m_SpecifySize: 1
+    m_Name: ame
+    m_Texture: {fileID: 2800000, guid: a3f2ac93b92edc5458630a318935dd54, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5695506975924886879
+      m_GuidHigh: 4412618982590387889
+    m_SerializedTextureGuid:
+      m_GuidLow: 14151476040128107618
+      m_GuidHigh: 1204597512615046409
+    m_Size: {x: 0.1, y: 0.1}
+    m_SpecifySize: 1
+    m_Name: hana
+    m_Texture: {fileID: 2800000, guid: 13499462247bc464092dbd340e97b710, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 4917686000384942146
+      m_GuidHigh: 14249571242424104066
+    m_SerializedTextureGuid:
+      m_GuidLow: 483214083966254985
+      m_GuidHigh: 16359246001341137992
+    m_Size: {x: 0.1, y: 0.1}
+    m_SpecifySize: 1
+    m_Name: hi
+    m_Texture: {fileID: 2800000, guid: 31463f89b8a606b448042b2f90b707e3, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5520437062936225691
+      m_GuidHigh: 5355759378682128280
+    m_SerializedTextureGuid:
+      m_GuidLow: 7977131865359538375
+      m_GuidHigh: 12924911973206082442
+    m_Size: {x: 0.1, y: 0.1}
+    m_SpecifySize: 1
+    m_Name: kawa
+    m_Texture: {fileID: 2800000, guid: b93458c7772a6eb48a4324e4f5825eb3, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 4903832026913469485
+      m_GuidHigh: 5999297685495932813
+    m_SerializedTextureGuid:
+      m_GuidLow: 5099254447534124094
+      m_GuidHigh: 4491541994966444249
+    m_Size: {x: 0.1, y: 0.1}
+    m_SpecifySize: 1
+    m_Name: ki
+    m_Texture: {fileID: 2800000, guid: 2c9a2c3e30e746c4d968b9afa529553e, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 4699749054137869646
+      m_GuidHigh: 17720190796350473146
+    m_SerializedTextureGuid:
+      m_GuidLow: 8278944246264437424
+      m_GuidHigh: 2755568008613954010
+    m_Size: {x: 0.1, y: 0.097892724}
+    m_SpecifySize: 1
+    m_Name: mon
+    m_Texture: {fileID: 2800000, guid: a1db1ab0b7ed72e4da81dd1381be3d26, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 4803955478848262831
+      m_GuidHigh: 7265184291839587766
+    m_SerializedTextureGuid:
+      m_GuidLow: 3982534820890243493
+      m_GuidHigh: 11348909076521142682
+    m_Size: {x: 0.1, y: 0.1}
+    m_SpecifySize: 1
+    m_Name: nichi
+    m_Texture: {fileID: 2800000, guid: b8c971a5ce5137449ac93f0ead6c7f9d, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5119070670590195290
+      m_GuidHigh: 13843692118363594895
+    m_SerializedTextureGuid:
+      m_GuidLow: 15970974897319324527
+      m_GuidHigh: 3809764966254790457
+    m_Size: {x: 0.1, y: 0.1}
+    m_SpecifySize: 1
+    m_Name: ta
+    m_Texture: {fileID: 2800000, guid: 1f662b6f4d0ddda4394758430d01df34, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5231661964898245243
+      m_GuidHigh: 5283987002241809547
+    m_SerializedTextureGuid:
+      m_GuidLow: 9873117077902971895
+      m_GuidHigh: 2080243592273182586
+    m_Size: {x: 0.1, y: 0.1}
+    m_SpecifySize: 1
+    m_Name: tsuki
+    m_Texture: {fileID: 2800000, guid: 1e3fd3f75bac89047abfb98b8682de1c, type: 3}
