@@ -389,6 +389,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   placeablePrefabs:
   - {fileID: 919132149155446097, guid: 97419dbb9fa01fe4dbab6a74ef0808e3, type: 3}
+  - {fileID: 919132149155446097, guid: dc5bc1f397181440cb63ccddbb4c3023, type: 3}
+  - {fileID: 919132149155446097, guid: 42cd15d39f09c42839c183bff7f7fc18, type: 3}
 --- !u!114 &388525034
 MonoBehaviour:
   m_ObjectHideFlags: 0
