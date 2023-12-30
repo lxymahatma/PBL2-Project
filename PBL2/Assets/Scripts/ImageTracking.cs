@@ -53,7 +53,7 @@ namespace Scripts
 
             foreach (var trackedImage in args.removed)
             {
-                _spawnedPrefabs[trackedImage.name].SetActive(false);
+                _spawnedPrefabs[trackedImage.referenceImage.name].SetActive(false);
             }
         }
 

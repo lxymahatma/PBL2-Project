@@ -11,9 +11,6 @@ namespace Scripts
         [Tooltip("Animation duration in seconds")]
         [SerializeField] private float animationDuration = 5f;
 
-        [Tooltip("Animation speed, left 0 to automatically calculate speed")]
-        [SerializeField] private float animationSpeed;
-
         private Line[] _lines;
 
         private void Start()
@@ -34,7 +31,6 @@ namespace Scripts
         private IEnumerator AnimateLine(Line line)
         {
             line.LineGameObject.SetActive(true);
-
             var segmentDuration = animationDuration / line.PositionsCount;
 
             for (var i = 0; i < line.PositionsCount - 1; i++)

@@ -45,12 +45,12 @@
     <Analyzer Include="E:\Unity\2022.3.14f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\LineAnimator.cs"/>
-    <Compile Include="Assets\ExampleAssets\Scripts\AnchorCreator.cs"/>
-    <Compile Include="Assets\ExampleAssets\Scripts\ARFeatheredPlaneMeshVisualizer.cs"/>
-    <Compile Include="Assets\Scripts\ImageTracking.cs"/>
-    <Compile Include="Assets\Scripts\Line.cs"/>
-    <None Include="Assets\ExampleAssets\Shaders\FeatheredPlaneShader.shader"/>
+    <Compile Include="Assets\Scripts\LineAnimator.cs" />
+    <Compile Include="Assets\ExampleAssets\Scripts\AnchorCreator.cs" />
+    <Compile Include="Assets\ExampleAssets\Scripts\ARFeatheredPlaneMeshVisualizer.cs" />
+    <Compile Include="Assets\Scripts\ImageTracking.cs" />
+    <Compile Include="Assets\Scripts\Line.cs" />
+    <None Include="Assets\ExampleAssets\Shaders\FeatheredPlaneShader.shader" />
     <Reference Include="UnityEngine">
       <HintPath>E:\Unity\2022.3.14f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
