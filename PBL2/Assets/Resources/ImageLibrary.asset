@@ -108,12 +108,112 @@ MonoBehaviour:
     m_Name: tsuki
     m_Texture: {fileID: 2800000, guid: 9bb06e62b04a6c648bb6c030a04d51d4, type: 3}
   - m_SerializedGuid:
-      m_GuidLow: 4701888513846655497
-      m_GuidHigh: 12076405250619181734
+      m_GuidLow: 5004371742930800184
+      m_GuidHigh: 9288262320721121924
     m_SerializedTextureGuid:
-      m_GuidLow: 6472944600556146148
-      m_GuidHigh: 17283982585480625547
+      m_GuidLow: 14543523011813502876
+      m_GuidHigh: 9983150394591255419
     m_Size: {x: 0.1, y: 0.1}
     m_SpecifySize: 1
-    m_Name: hana
-    m_Texture: {fileID: 2800000, guid: aeee8de484d159d48b3d9c47960addef, type: 3}
+    m_Name: nichi
+    m_Texture: {fileID: 2800000, guid: d5dcef9cf91fc9d47b9be91064468b8a, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5128088612582458101
+      m_GuidHigh: 14080376640419485827
+    m_SerializedTextureGuid:
+      m_GuidLow: 15863027791312615408
+      m_GuidHigh: 5151577832680972136
+    m_Size: {x: 0.1, y: 0.1}
+    m_SpecifySize: 1
+    m_Name: ame
+    m_Texture: {fileID: 2800000, guid: f35677f0cbbadc2468dfb99dbe147e47, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5328113660746107001
+      m_GuidHigh: 415000719942118811
+    m_SerializedTextureGuid:
+      m_GuidLow: 4959766600137192751
+      m_GuidHigh: 7817956269741403178
+    m_Size: {x: 0.1, y: 0.1}
+    m_SpecifySize: 1
+    m_Name: flower
+    m_Texture: {fileID: 2800000, guid: e206352fa17144d42a6c7957cef57e6c, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5460460964611294930
+      m_GuidHigh: 7016247134420671122
+    m_SerializedTextureGuid:
+      m_GuidLow: 3946379851930557718
+      m_GuidHigh: 7647118227923888057
+    m_Size: {x: 0.1, y: 0.1}
+    m_SpecifySize: 1
+    m_Name: gate
+    m_Texture: {fileID: 2800000, guid: 07145d165b9136c4b967d11a8305206a, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5609745552269238972
+      m_GuidHigh: 476039397496740528
+    m_SerializedTextureGuid:
+      m_GuidLow: 2009961746584892488
+      m_GuidHigh: 18287242041593618584
+    m_Size: {x: 0.1, y: 0.1}
+    m_SpecifySize: 1
+    m_Name: hi
+    m_Texture: {fileID: 2800000, guid: 2d50f448d18f1be498e0c632bf55c9fd, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 4914878070552275868
+      m_GuidHigh: 1937559236957529241
+    m_SerializedTextureGuid:
+      m_GuidLow: 3153721835498877585
+      m_GuidHigh: 4946095286378103913
+    m_Size: {x: 0.1, y: 0.1}
+    m_SpecifySize: 1
+    m_Name: moon
+    m_Texture: {fileID: 2800000, guid: dd4db291454c2bc46904cd19750fa444, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5656600067129769026
+      m_GuidHigh: 10079121653328594580
+    m_SerializedTextureGuid:
+      m_GuidLow: 1969262110683012175
+      m_GuidHigh: 5572841488605012842
+    m_Size: {x: 0.1, y: 0.1}
+    m_SpecifySize: 1
+    m_Name: mountain
+    m_Texture: {fileID: 2800000, guid: c0e59c4f39741b546a63dcc5ceb5564d, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5301410076263043486
+      m_GuidHigh: 6955919129026686098
+    m_SerializedTextureGuid:
+      m_GuidLow: 3608651195684972504
+      m_GuidHigh: 914001181400764856
+    m_Size: {x: 0.1, y: 0.1}
+    m_SpecifySize: 1
+    m_Name: sun
+    m_Texture: {fileID: 2800000, guid: 9d1767d881243214b811ae5d3b2faf0c, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5053271244842074013
+      m_GuidHigh: 3571558457977653137
+    m_SerializedTextureGuid:
+      m_GuidLow: 17709484652695940380
+      m_GuidHigh: 6834996898875511896
+    m_Size: {x: 0.1, y: 0.1}
+    m_SpecifySize: 1
+    m_Name: tree
+    m_Texture: {fileID: 2800000, guid: 772c6d1cba76f5c458145f5677c9da5e, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5329713717279587328
+      m_GuidHigh: 4677833144193711039
+    m_SerializedTextureGuid:
+      m_GuidLow: 14138092618385883737
+      m_GuidHigh: 8101531818415518744
+    m_Size: {x: 0.1, y: 0.1}
+    m_SpecifySize: 1
+    m_Name: rain
+    m_Texture: {fileID: 2800000, guid: 607682599854c43418742edd436c6e70, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5748858850451130279
+      m_GuidHigh: 14062967545537374629
+    m_SerializedTextureGuid:
+      m_GuidLow: 8958821122367058458
+      m_GuidHigh: 14701766641982232888
+    m_Size: {x: 0.1, y: 0.1}
+    m_SpecifySize: 1
+    m_Name: river
+    m_Texture: {fileID: 2800000, guid: 4cf4721a20587c5438d9091ade2a07cc, type: 3}
