@@ -1,13 +1,44 @@
 {
-    "m_SelectedDeviceId": "f9cd70dd",
+    "m_SelectedDeviceId": "fa4725d0422",
     "m_SelectedPackage": {
-        "deviceId": "",
-        "name": "",
-        "processId": 0,
+        "deviceId": "fa4725d0422",
+        "name": "com.Ritsumeikan.PBL2",
+        "processId": 31443,
         "exited": false
     },
     "m_SelectedPriority": 0,
-    "m_KnownPackagesForSerialization": [],
+    "m_KnownPackagesForSerialization": [
+        {
+            "deviceId": "d99d6ba90721",
+            "name": "com.miui.home",
+            "processId": 21647,
+            "exited": false
+        },
+        {
+            "deviceId": "fa4725d0422",
+            "name": "com.Ritsumeikan.PBL2",
+            "processId": 15764,
+            "exited": true
+        },
+        {
+            "deviceId": "fa4725d0422",
+            "name": "com.Ritsumeikan.PBL2",
+            "processId": 20807,
+            "exited": true
+        },
+        {
+            "deviceId": "fa4725d0422",
+            "name": "com.Ritsumeikan.PBL2",
+            "processId": 22680,
+            "exited": false
+        },
+        {
+            "deviceId": "fa4725d0422",
+            "name": "com.Ritsumeikan.PBL2",
+            "processId": 31443,
+            "exited": false
+        }
+    ],
     "m_Tags": {
         "m_Entries": [
             {
@@ -59,7 +90,7 @@
         "Behavior": 0
     },
     "m_FilterOptions": {
-        "m_Filter": "",
+        "m_Filter": "updated",
         "m_UseRegularExpressions": false,
         "m_MatchCase": false
     },
