@@ -41,6 +41,7 @@ namespace Scripts
 
         private void OnImageChanged(ARTrackedImagesChangedEventArgs args)
         {
+            Debug.Log(args.ToString());
             foreach (var trackedImage in args.added)
             {
                 UpdateImage(trackedImage);
@@ -62,6 +63,7 @@ namespace Scripts
             var imageName = trackedImage.referenceImage.name;
             var position = trackedImage.transform.position;
 
+            Debug.Log($"Found {imageName} at {position}");
             var prefab = _spawnedPrefabs[imageName];
             prefab.transform.position = position;
             prefab.SetActive(true);
