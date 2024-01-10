@@ -1,5 +1,4 @@
 using System.Collections.Generic;
-using System.Linq;
 using UnityEngine;
 using UnityEngine.XR.ARFoundation;
 
@@ -21,7 +20,7 @@ namespace Scripts
 
             foreach (var prefab in placeablePrefabs)
             {
-                var newPrefab = Instantiate(prefab, Vector3.zero, Quaternion.identity);
+                var newPrefab = Instantiate(prefab, Vector3.zero, prefab.transform.rotation);
                 newPrefab.name = prefab.name;
                 newPrefab.SetActive(false);
 
@@ -67,11 +66,6 @@ namespace Scripts
             var prefab = _spawnedPrefabs[imageName];
             prefab.transform.position = position;
             prefab.SetActive(true);
-
-            foreach (var go in _spawnedPrefabs.Values.Where(go => go.name != imageName))
-            {
-                go.SetActive(false);
-            }
         }
     }
 }
