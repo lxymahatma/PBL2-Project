@@ -49,7 +49,7 @@ namespace Scripts
 
             foreach (var trackedImage in args.updated)
             {
-                if (trackedImage.trackingState != TrackingState.None)
+                if (trackedImage.trackingState == TrackingState.Tracking)
                 {
                     UpdateImage(trackedImage);
                 }
@@ -65,7 +65,6 @@ namespace Scripts
             var imageName = trackedImage.referenceImage.name;
             var position = trackedImage.transform.position;
 
-            Debug.Log($"Found {imageName} at {position}");
             var prefab = _spawnedPrefabs[imageName];
             prefab.transform.position = position;
             prefab.SetActive(true);
