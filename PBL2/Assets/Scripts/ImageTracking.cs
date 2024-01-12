@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR.ARFoundation;
+using UnityEngine.XR.ARSubsystems;
 
 namespace Scripts
 {
@@ -48,12 +49,14 @@ namespace Scripts
 
             foreach (var trackedImage in args.updated)
             {
-                UpdateImage(trackedImage);
-            }
-
-            foreach (var trackedImage in args.removed)
-            {
-                _spawnedPrefabs[trackedImage.referenceImage.name].SetActive(false);
+                if (trackedImage.trackingState != TrackingState.None)
+                {
+                    UpdateImage(trackedImage);
+                }
+                else
+                {
+                    _spawnedPrefabs[trackedImage.referenceImage.name].SetActive(false);
+                }
             }
         }
 

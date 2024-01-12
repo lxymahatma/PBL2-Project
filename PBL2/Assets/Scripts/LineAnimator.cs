@@ -11,6 +11,7 @@ namespace Scripts
         [Tooltip("Animation duration in seconds")]
         [SerializeField] private float animationDuration = 5f;
 
+        private bool _continuePlaying;
         private Line[] _lines;
 
         private void Start()
@@ -26,7 +27,24 @@ namespace Scripts
             StartCoroutine(StartAnimation());
         }
 
-        private IEnumerator StartAnimation() => _lines.Select(AnimateLine).GetEnumerator();
+        private void OnBecameInvisible()
+        {
+            _continuePlaying = false;
+        }
+
+        private void OnBecameVisible()
+        {
+            _continuePlaying = true;
+        }
+
+        private IEnumerator StartAnimation()
+        {
+            while (_continuePlaying)
+            {
+                using var startAnimation = _lines.Select(AnimateLine).GetEnumerator();
+                yield return startAnimation;
+            }
+        }
 
         private IEnumerator AnimateLine(Line line)
         {
