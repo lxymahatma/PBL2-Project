@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.4439372, g: 0.49315345, b: 0.5721989, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -136,6 +136,7 @@ GameObject:
   - component: {fileID: 22732923}
   - component: {fileID: 22732922}
   - component: {fileID: 22732921}
+  - component: {fileID: 22732925}
   m_Layer: 0
   m_Name: AR Camera
   m_TagString: Untagged
@@ -259,6 +260,66 @@ Transform:
   m_Children: []
   m_Father: {fileID: 388525031}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &22732925
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 22732919}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 948f4100a11a5c24981795d21301da5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  volumeTrigger: {fileID: 22732924}
+  volumeLayer:
+    serializedVersion: 2
+    m_Bits: 64
+  stopNaNPropagation: 1
+  finalBlitToCameraTarget: 0
+  antialiasingMode: 0
+  temporalAntialiasing:
+    jitterSpread: 0.75
+    sharpness: 0.25
+    stationaryBlending: 0.95
+    motionBlending: 0.85
+  subpixelMorphologicalAntialiasing:
+    quality: 2
+  fastApproximateAntialiasing:
+    fastMode: 0
+    keepAlpha: 0
+  fog:
+    enabled: 1
+    excludeSkybox: 1
+  debugLayer:
+    lightMeter:
+      width: 512
+      height: 256
+      showCurves: 1
+    histogram:
+      width: 512
+      height: 256
+      channel: 3
+    waveform:
+      exposure: 0.12
+      height: 256
+    vectorscope:
+      size: 256
+      exposure: 0.12
+    overlaySettings:
+      linearDepth: 0
+      motionColorIntensity: 4
+      motionGridSize: 64
+      colorBlindnessType: 0
+      colorBlindnessStrength: 1
+  m_Resources: {fileID: 11400000, guid: d82512f9c8e5d4a4d938b575d47f88d4, type: 2}
+  m_ShowToolkit: 0
+  m_ShowCustomSorter: 0
+  breakBeforeColorGrading: 0
+  m_BeforeTransparentBundles: []
+  m_BeforeStackBundles: []
+  m_AfterStackBundles: []
 --- !u!850595691 &128471145
 LightingSettings:
   m_ObjectHideFlags: 0
@@ -393,10 +454,10 @@ MonoBehaviour:
   - {fileID: 6385160877267719875, guid: 779092d4e3a9b4f429eadc2e9987a879, type: 3}
   - {fileID: 1582064333893140676, guid: ab95686963f7b4f0886797960e4918f2, type: 3}
   - {fileID: 7556476685483087782, guid: 3238fe245a94a4428b50fb83e2450ac7, type: 3}
-  - {fileID: 8528751880077307438, guid: b766d09f81ebc46828c37f18a422f1e6, type: 3}
+  - {fileID: 1817143310716250526, guid: c8de1b153a61944188974f69c28a00df, type: 3}
   - {fileID: 7950594569547259469, guid: b4429a171d8d147c98f5399bf0804852, type: 3}
   - {fileID: 919132149155446097, guid: 42cd15d39f09c42839c183bff7f7fc18, type: 3}
-  - {fileID: 2469864153957912527, guid: cb9d8b3777eda45faa14f64be2c27b42, type: 3}
+  - {fileID: 4466723013438335100, guid: cb9d8b3777eda45faa14f64be2c27b42, type: 3}
   - {fileID: 4914456634026715452, guid: 2153a84a7dac942c88faf9dff48e14cf, type: 3}
   - {fileID: 9127491200744898649, guid: 7b799b7d8b50548109943f808ad37581, type: 3}
   - {fileID: 7113506898922927869, guid: 711dc761ab54545d2a2da21462bdc1bb, type: 3}
