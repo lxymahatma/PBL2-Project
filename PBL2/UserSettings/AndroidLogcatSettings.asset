@@ -3,7 +3,7 @@
     "m_SelectedPackage": {
         "deviceId": "fa4725d0422",
         "name": "com.Ritsumeikan.PBL2",
-        "processId": 16214,
+        "processId": 9951,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -48,6 +48,18 @@
             "deviceId": "fa4725d0422",
             "name": "com.Ritsumeikan.PBL2",
             "processId": 16214,
+            "exited": false
+        },
+        {
+            "deviceId": "fa4725d0422",
+            "name": "com.Ritsumeikan.PBL2",
+            "processId": 3126,
+            "exited": false
+        },
+        {
+            "deviceId": "fa4725d0422",
+            "name": "com.Ritsumeikan.PBL2",
+            "processId": 9951,
             "exited": false
         }
     ],
