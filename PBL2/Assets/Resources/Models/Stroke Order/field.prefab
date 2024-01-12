@@ -507,7 +507,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u7530\nStrokes\uFF1B5\nMeaning\uFF1BField\nOn yomi ;\u3000den\nKun Yomi\uFF1Bta\n\n\nVocabulary\uFF1B\u6C34\u7530-water
+  m_text: "\u7530\nStrokes\uFF1B5\nMeaning\uFF1BField\nOn yomi ;\u3000\u3067\u3093\u3000den
+    \nKun Yomi\uFF1B\u305F\u3000ta\u3000\n\n\nVocabulary\uFF1B\u6C34\u7530-water
     field"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 9d588116479d547c493819c888056b52, type: 2}
@@ -518,8 +519,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4278255874
+  m_fontColor: {r: 0.009433985, g: 0.0057404907, b: 0.0057404907, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -842,8 +843,8 @@ LineRenderer:
       m_ColorSpace: -1
       m_NumColorKeys: 2
       m_NumAlphaKeys: 2
-    numCornerVertices: 0
-    numCapVertices: 0
+    numCornerVertices: 10
+    numCapVertices: 10
     alignment: 0
     textureMode: 0
     textureScale: {x: 1, y: 1}
@@ -1040,4 +1041,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8bbb8005462c32429fb6e7e72237f0c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animationDuration: 5
+  animationDuration: 3
