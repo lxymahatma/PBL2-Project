@@ -32,11 +32,7 @@ Transform:
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 4204409448234782258}
-<<<<<<< Updated upstream
   - {fileID: 6542920697694657156}
-=======
-  - {fileID: 1822614345220419021}
->>>>>>> Stashed changes
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 1.543}
 --- !u!218 &2472922825516265627
@@ -98,11 +94,7 @@ TerrainCollider:
   serializedVersion: 2
   m_TerrainData: {fileID: 15600000, guid: e25d0f0f4b01a433198d832fc519924a, type: 2}
   m_EnableTreeColliders: 1
-<<<<<<< Updated upstream
 --- !u!1 &4011979615432464445
-=======
---- !u!1 &5716881787214337695
->>>>>>> Stashed changes
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -110,15 +102,9 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-<<<<<<< Updated upstream
   - component: {fileID: 6542920697694657156}
   - component: {fileID: 4000358713934296051}
   - component: {fileID: 302781550582888463}
-=======
-  - component: {fileID: 1822614345220419021}
-  - component: {fileID: 6720447832915041771}
-  - component: {fileID: 6064896175866532669}
->>>>>>> Stashed changes
   m_Layer: 0
   m_Name: reading
   m_TagString: Untagged
@@ -126,54 +112,32 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-<<<<<<< Updated upstream
 --- !u!224 &6542920697694657156
-=======
---- !u!224 &1822614345220419021
->>>>>>> Stashed changes
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< Updated upstream
   m_GameObject: {fileID: 4011979615432464445}
   m_LocalRotation: {x: -0, y: -0, z: -0.013464806, w: 0.9999094}
   m_LocalPosition: {x: 0, y: 0, z: 7.6}
   m_LocalScale: {x: 1.5071837, y: 1.5071837, z: 1.5071838}
-=======
-  m_GameObject: {fileID: 5716881787214337695}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 5.82}
-  m_LocalScale: {x: 0.95781326, y: 0.95781326, z: 0.95781326}
->>>>>>> Stashed changes
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7800438160012156670}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-<<<<<<< Updated upstream
   m_AnchoredPosition: {x: 15.23, y: 8.41}
   m_SizeDelta: {x: 20, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!23 &4000358713934296051
-=======
-  m_AnchoredPosition: {x: 9.04, y: 6.33}
-  m_SizeDelta: {x: 20, y: 5}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!23 &6720447832915041771
->>>>>>> Stashed changes
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< Updated upstream
   m_GameObject: {fileID: 4011979615432464445}
-=======
-  m_GameObject: {fileID: 5716881787214337695}
->>>>>>> Stashed changes
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -209,21 +173,13 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
-<<<<<<< Updated upstream
 --- !u!114 &302781550582888463
-=======
---- !u!114 &6064896175866532669
->>>>>>> Stashed changes
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< Updated upstream
   m_GameObject: {fileID: 4011979615432464445}
-=======
-  m_GameObject: {fileID: 5716881787214337695}
->>>>>>> Stashed changes
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9541d86e2fd84c1d9990edf0852d74ab, type: 3}
@@ -237,12 +193,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-<<<<<<< Updated upstream
   m_text: "Stroke; \uFF14\nMeaning; Day\nOn yomi; nichi ,jitsu\nKun yomi; hi\n\nVocabulary
     ; \u4ECA\u65E5-today"
-=======
-  m_text: "Strokes\uFF1B3\nMeaning; River\nOn yomi ;\u3000sen\nKun Yomi\uFF1Bkawa\n\nVocabulary\uFF1B\u5DDD\u8FBA-riverside"
->>>>>>> Stashed changes
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 9d588116479d547c493819c888056b52, type: 2}
   m_sharedMaterial: {fileID: 3333324089433783600, guid: 9d588116479d547c493819c888056b52,
@@ -252,13 +204,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-<<<<<<< Updated upstream
     rgba: 4294967295
   m_fontColor: {r: 1, g: 1, b: 1, a: 1}
-=======
-    rgba: 4278453253
-  m_fontColor: {r: 0.01886791, g: 0.017176919, b: 0.017176919, a: 1}
->>>>>>> Stashed changes
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -311,22 +258,14 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-<<<<<<< Updated upstream
   m_margin: {x: 0, y: 0, z: 0, w: -4.8040285}
-=======
-  m_margin: {x: 0, y: 0, z: 3.5832963, w: -2.754322}
->>>>>>> Stashed changes
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   _SortingLayer: 0
   _SortingLayerID: 0
   _SortingOrder: 0
   m_hasFontAssetChanged: 0
-<<<<<<< Updated upstream
   m_renderer: {fileID: 4000358713934296051}
-=======
-  m_renderer: {fileID: 6720447832915041771}
->>>>>>> Stashed changes
   m_maskType: 0
 --- !u!1 &7499436879953249633
 GameObject:
@@ -355,7 +294,6 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7499436879953249633}
   serializedVersion: 2
-<<<<<<< Updated upstream
   m_LocalRotation: {x: -0.0023809772, y: -0.9999447, z: -0.0011587776, w: 0.010177452}
   m_LocalPosition: {x: 4.49, y: 0.1, z: 4.72}
   m_LocalScale: {x: 0.48220393, y: 0.039745193, z: 0.94491124}
@@ -363,15 +301,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 7800438160012156670}
   m_LocalEulerAnglesHint: {x: -0.136, y: -178.834, z: 0.271}
-=======
-  m_LocalRotation: {x: 0.00749913, y: 0.0142978225, z: 0.0019246585, w: 0.99986786}
-  m_LocalPosition: {x: 4.32, y: 0.16, z: 5.13}
-  m_LocalScale: {x: 0.53051925, y: 0.04372754, z: 1.0395885}
-  m_ConstrainProportionsScale: 1
-  m_Children: []
-  m_Father: {fileID: 7800438160012156670}
-  m_LocalEulerAnglesHint: {x: 0.856, y: 1.64, z: 0.233}
->>>>>>> Stashed changes
 --- !u!33 &8531452812533310529
 MeshFilter:
   m_ObjectHideFlags: 0

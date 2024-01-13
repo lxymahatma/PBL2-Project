@@ -25,16 +25,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3472442484745244337}
-  m_LocalRotation: {x: 0.035747293, y: -0.7062027, z: -0.7062027, w: 0.03574736}
-  m_LocalPosition: {x: 0, y: 0, z: 0.0004037857}
+  m_LocalRotation: {x: -0.044412065, y: -0.7057107, z: -0.7057107, w: -0.044412058}
+  m_LocalPosition: {x: 0, y: 0, z: 0.00040378424}
   m_LocalScale: {x: 0.0003605967, y: 0.00016109333, z: 0.003886691}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1331968839588016932}
-  m_LocalEulerAnglesHint: {x: -95.795, y: 90, z: 90}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.004289236, y: 0.0025655017}
+  m_AnchoredPosition: {x: -0.0043255165, y: 0.0071057174}
   m_SizeDelta: {x: 20, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!23 &2965845640003980791
@@ -99,8 +99,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Strokes ; 8\nMeaning ; gate\nOn yomi ; \u3082\u3093\u3000mon\nKun yomi
-    ; \u304B\u3069 kado\n\nVocabulary ; \u9580\u9650-curfew"
+  m_text: "Stroke; \uFF14\nMeaning; tree\nOn yomi; moku\nKun yomi; ki"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 9d588116479d547c493819c888056b52, type: 2}
   m_sharedMaterial: {fileID: 3333324089433783600, guid: 9d588116479d547c493819c888056b52,
@@ -110,8 +109,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4279571734
-  m_fontColor: {r: 0.084905684, g: 0.082102194, b: 0.082102194, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -164,7 +163,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 5.0977864, w: -5.538161}
+  m_margin: {x: 0, y: 0, z: 9.844667, w: -1.6857305}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   _SortingLayer: 0
