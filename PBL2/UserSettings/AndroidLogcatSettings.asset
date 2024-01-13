@@ -3,7 +3,11 @@
     "m_SelectedPackage": {
         "deviceId": "fa4725d0422",
         "name": "com.Ritsumeikan.PBL2",
+<<<<<<< Updated upstream
         "processId": 8311,
+=======
+        "processId": 26321,
+>>>>>>> Stashed changes
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -72,6 +76,7 @@
             "deviceId": "fa4725d0422",
             "name": "com.Ritsumeikan.PBL2",
             "processId": 26321,
+<<<<<<< Updated upstream
             "exited": false
         },
         {
@@ -90,6 +95,8 @@
             "deviceId": "fa4725d0422",
             "name": "com.Ritsumeikan.PBL2",
             "processId": 8311,
+=======
+>>>>>>> Stashed changes
             "exited": false
         }
     ],
