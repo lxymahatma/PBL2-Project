@@ -41,7 +41,6 @@ namespace Scripts
 
         private void OnImageChanged(ARTrackedImagesChangedEventArgs args)
         {
-            Debug.Log(args.ToString());
             foreach (var trackedImage in args.added)
             {
                 UpdateImage(trackedImage);
