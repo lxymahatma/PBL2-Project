@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR.ARFoundation;
+using UnityEngine.XR.ARSubsystems;
 
 namespace Scripts
 {
@@ -40,7 +41,6 @@ namespace Scripts
 
         private void OnImageChanged(ARTrackedImagesChangedEventArgs args)
         {
-            Debug.Log(args.ToString());
             foreach (var trackedImage in args.added)
             {
                 UpdateImage(trackedImage);
@@ -48,12 +48,14 @@ namespace Scripts
 
             foreach (var trackedImage in args.updated)
             {
-                UpdateImage(trackedImage);
-            }
-
-            foreach (var trackedImage in args.removed)
-            {
-                _spawnedPrefabs[trackedImage.referenceImage.name].SetActive(false);
+                if (trackedImage.trackingState == TrackingState.Tracking)
+                {
+                    UpdateImage(trackedImage);
+                }
+                else
+                {
+                    _spawnedPrefabs[trackedImage.referenceImage.name].SetActive(false);
+                }
             }
         }
 
@@ -62,7 +64,6 @@ namespace Scripts
             var imageName = trackedImage.referenceImage.name;
             var position = trackedImage.transform.position;
 
-            Debug.Log($"Found {imageName} at {position}");
             var prefab = _spawnedPrefabs[imageName];
             prefab.transform.position = position;
             prefab.SetActive(true);

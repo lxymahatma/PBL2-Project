@@ -61,6 +61,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets/Scripts/LineAnimator.cs" />
+    <Compile Include="Assets/Scripts/Extensions.cs" />
     <Compile Include="Assets/Scripts/ImageTracking.cs" />
     <Compile Include="Assets/Scripts/Line.cs" />
   </ItemGroup>
@@ -1042,10 +1043,6 @@
     </Reference>
     <Reference Include="Unity.XR.OpenXR.Features.OculusQuestSupport">
       <HintPath>Library/ScriptAssemblies/Unity.XR.OpenXR.Features.OculusQuestSupport.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="NuGetForUnity">
-      <HintPath>Library/ScriptAssemblies/NuGetForUnity.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.InternalAPIEditorBridge.007">

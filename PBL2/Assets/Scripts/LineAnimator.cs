@@ -9,11 +9,12 @@ namespace Scripts
     public class LineAnimator : MonoBehaviour
     {
         [Tooltip("Animation duration in seconds")]
-        [SerializeField] private float animationDuration = 5f;
+        [SerializeField] private float animationDuration = 2f;
 
+        private bool _continuePlaying;
         private Line[] _lines;
 
-        private void Start()
+        private void Awake()
         {
             var lineRenders = GetComponentsInChildren<LineRenderer>();
             _lines = new Line[lineRenders.Length];
@@ -22,11 +23,30 @@ namespace Scripts
             {
                 _lines[i] = new Line(lineRenders[i]);
             }
+        }
 
+        private void OnEnable()
+        {
+            _continuePlaying = true;
+            _lines.Reset();
             StartCoroutine(StartAnimation());
         }
 
-        private IEnumerator StartAnimation() => _lines.Select(AnimateLine).GetEnumerator();
+        private void OnDisable()
+        {
+            _continuePlaying = false;
+        }
+
+        private IEnumerator StartAnimation()
+        {
+            while (_continuePlaying)
+            {
+                yield return StartCoroutine(StartLineAnimation());
+                _lines.Reset();
+            }
+        }
+
+        private IEnumerator StartLineAnimation() => _lines.Select(AnimateLine).GetEnumerator();
 
         private IEnumerator AnimateLine(Line line)
         {

@@ -23,5 +23,15 @@ namespace Scripts
                 LinePositions[i] = LineRenderer.GetPosition(i);
             }
         }
+
+        public void Reset()
+        {
+            for (var i = 0; i < PositionsCount; i++)
+            {
+                LineRenderer.SetPosition(i, Vector3.zero);
+            }
+
+            LineGameObject.SetActive(false);
+        }
     }
 }

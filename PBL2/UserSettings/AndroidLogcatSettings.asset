@@ -3,7 +3,7 @@
     "m_SelectedPackage": {
         "deviceId": "fa4725d0422",
         "name": "com.Ritsumeikan.PBL2",
-        "processId": 9951,
+        "processId": 8311,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -16,30 +16,6 @@
         },
         {
             "deviceId": "fa4725d0422",
-            "name": "com.Ritsumeikan.PBL2",
-            "processId": 332,
-            "exited": true
-        },
-        {
-            "deviceId": "fa4725d0422",
-            "name": "com.Ritsumeikan.PBL2",
-            "processId": 9893,
-            "exited": true
-        },
-        {
-            "deviceId": "fa4725d0422",
-            "name": "com.Ritsumeikan.PBL2",
-            "processId": 12746,
-            "exited": true
-        },
-        {
-            "deviceId": "fa4725d0422",
-            "name": "com.Ritsumeikan.PBL2",
-            "processId": 14569,
-            "exited": true
-        },
-        {
-            "deviceId": "fa4725d0422",
             "name": "com.miui.home",
             "processId": 31936,
             "exited": false
@@ -48,18 +24,72 @@
             "deviceId": "fa4725d0422",
             "name": "com.Ritsumeikan.PBL2",
             "processId": 16214,
-            "exited": false
+            "exited": true
         },
         {
             "deviceId": "fa4725d0422",
             "name": "com.Ritsumeikan.PBL2",
             "processId": 3126,
-            "exited": false
+            "exited": true
         },
         {
             "deviceId": "fa4725d0422",
             "name": "com.Ritsumeikan.PBL2",
             "processId": 9951,
+            "exited": true
+        },
+        {
+            "deviceId": "fa4725d0422",
+            "name": "com.Ritsumeikan.PBL2",
+            "processId": 10433,
+            "exited": true
+        },
+        {
+            "deviceId": "fa4725d0422",
+            "name": "com.Ritsumeikan.PBL2",
+            "processId": 26804,
+            "exited": false
+        },
+        {
+            "deviceId": "fa4725d0422",
+            "name": "com.Ritsumeikan.PBL2",
+            "processId": 30538,
+            "exited": false
+        },
+        {
+            "deviceId": "fa4725d0422",
+            "name": "com.Ritsumeikan.PBL2",
+            "processId": 2961,
+            "exited": false
+        },
+        {
+            "deviceId": "fa4725d0422",
+            "name": "com.Ritsumeikan.PBL2",
+            "processId": 17647,
+            "exited": false
+        },
+        {
+            "deviceId": "fa4725d0422",
+            "name": "com.Ritsumeikan.PBL2",
+            "processId": 26321,
+            "exited": false
+        },
+        {
+            "deviceId": "fa4725d0422",
+            "name": "com.Ritsumeikan.PBL2",
+            "processId": 23273,
+            "exited": false
+        },
+        {
+            "deviceId": "fa4725d0422",
+            "name": "com.Ritsumeikan.PBL2",
+            "processId": 31800,
+            "exited": false
+        },
+        {
+            "deviceId": "fa4725d0422",
+            "name": "com.Ritsumeikan.PBL2",
+            "processId": 8311,
             "exited": false
         }
     ],
