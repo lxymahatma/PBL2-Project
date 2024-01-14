@@ -99,7 +99,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Stroke; \uFF14\nMeaning; tree\nOn yomi; moku\nKun yomi; ki"
+  m_text: "Strokes ; 8\nMeaning ; gate\nOn yomi ; \u3082\u3093\u3000mon\nKun yomi
+    ; \u304B\u3069 kado\n\nVocabulary ; \u9580\u9650-curfew"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 9d588116479d547c493819c888056b52, type: 2}
   m_sharedMaterial: {fileID: 3333324089433783600, guid: 9d588116479d547c493819c888056b52,
@@ -109,8 +110,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4279440147
+  m_fontColor: {r: 0.0754717, g: 0.0736917, b: 0.0736917, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -163,7 +164,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 9.844667, w: -1.6857305}
+  m_margin: {x: 0, y: 0, z: 7.7139244, w: -1.6857305}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   _SortingLayer: 0

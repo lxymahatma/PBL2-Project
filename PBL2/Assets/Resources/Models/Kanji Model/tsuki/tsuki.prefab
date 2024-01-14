@@ -109,8 +109,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4279045390
+  m_fontColor: {r: 0.05660379, g: 0.05153081, b: 0.05153081, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -281,8 +281,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4278519045
+  m_fontColor: {r: 0.01886791, g: 0.017888915, b: 0.017888915, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -354,6 +354,21 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 4f9612fe426284213a1ae188ffac1b60,
         type: 3}
+      propertyPath: m_LocalScale.x
+      value: 11.255139
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4f9612fe426284213a1ae188ffac1b60,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 10.825328
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4f9612fe426284213a1ae188ffac1b60,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.9
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4f9612fe426284213a1ae188ffac1b60,
+        type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -401,6 +416,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4f9612fe426284213a1ae188ffac1b60,
+        type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 4f9612fe426284213a1ae188ffac1b60,
         type: 3}
