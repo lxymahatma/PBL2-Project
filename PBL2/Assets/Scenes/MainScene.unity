@@ -449,7 +449,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   placeablePrefabs:
-  - {fileID: 3807920518930415720, guid: 274948c44490041f88c9fc334312b6f2, type: 3}
+  - {fileID: 7107000199828680848, guid: ecea1f459d55540a0885ec3b0e9584eb, type: 3}
   - {fileID: 8883118136358358472, guid: 956199317731a491696bf3502d5151d4, type: 3}
   - {fileID: 6385160877267719875, guid: 779092d4e3a9b4f429eadc2e9987a879, type: 3}
   - {fileID: 1582064333893140676, guid: ab95686963f7b4f0886797960e4918f2, type: 3}
