@@ -1,101 +1,101 @@
 {
     "m_SelectedDeviceId": "d99d6ba90721",
     "m_SelectedPackage": {
-        "deviceId": "fa4725d0422",
+        "deviceId": "d99d6ba90721",
         "name": "com.Ritsumeikan.PBL2",
-        "processId": 9331,
+        "processId": 20414,
         "exited": false
     },
     "m_SelectedPriority": 0,
     "m_KnownPackagesForSerialization": [
         {
+            "deviceId": "d99d6ba90721",
+            "name": "com.miui.home",
+            "processId": 21647,
+            "exited": false
+        },
+        {
+            "deviceId": "d99d6ba90721",
+            "name": "com.Ritsumeikan.PBL2",
+            "processId": 20414,
+            "exited": false
+        },
+        {
+            "deviceId": "fa4725d0422",
+            "name": "com.miui.home",
+            "processId": 31936,
+            "exited": false
+        },
+        {
             "deviceId": "fa4725d0422",
             "name": "com.Ritsumeikan.PBL2",
-            "processId": 19255,
+            "processId": 16214,
             "exited": true
         },
         {
             "deviceId": "fa4725d0422",
             "name": "com.Ritsumeikan.PBL2",
-            "processId": 28443,
+            "processId": 3126,
             "exited": true
         },
         {
             "deviceId": "fa4725d0422",
             "name": "com.Ritsumeikan.PBL2",
-            "processId": 32023,
+            "processId": 9951,
             "exited": true
         },
         {
             "deviceId": "fa4725d0422",
             "name": "com.Ritsumeikan.PBL2",
-            "processId": 4867,
+            "processId": 10433,
+            "exited": true
+        },
+        {
+            "deviceId": "fa4725d0422",
+            "name": "com.Ritsumeikan.PBL2",
+            "processId": 26804,
             "exited": false
         },
         {
             "deviceId": "fa4725d0422",
             "name": "com.Ritsumeikan.PBL2",
-            "processId": 7819,
+            "processId": 30538,
             "exited": false
         },
         {
             "deviceId": "fa4725d0422",
             "name": "com.Ritsumeikan.PBL2",
-            "processId": 9612,
+            "processId": 2961,
             "exited": false
         },
         {
             "deviceId": "fa4725d0422",
             "name": "com.Ritsumeikan.PBL2",
-            "processId": 13329,
+            "processId": 17647,
             "exited": false
         },
         {
             "deviceId": "fa4725d0422",
             "name": "com.Ritsumeikan.PBL2",
-            "processId": 15839,
+            "processId": 26321,
             "exited": false
         },
         {
             "deviceId": "fa4725d0422",
             "name": "com.Ritsumeikan.PBL2",
-            "processId": 18613,
+            "processId": 23273,
             "exited": false
         },
         {
             "deviceId": "fa4725d0422",
             "name": "com.Ritsumeikan.PBL2",
-            "processId": 21316,
+            "processId": 31800,
             "exited": false
         },
         {
             "deviceId": "fa4725d0422",
             "name": "com.Ritsumeikan.PBL2",
-            "processId": 23891,
-            "exited": false
-        },
-        {
-            "deviceId": "fa4725d0422",
-            "name": "com.Ritsumeikan.PBL2",
-            "processId": 26363,
-            "exited": false
-        },
-        {
-            "deviceId": "fa4725d0422",
-            "name": "com.Ritsumeikan.PBL2",
-            "processId": 26395,
-            "exited": false
-        },
-        {
-            "deviceId": "fa4725d0422",
-            "name": "com.Ritsumeikan.PBL2",
-            "processId": 31900,
-            "exited": false
-        },
-        {
-            "deviceId": "fa4725d0422",
-            "name": "com.Ritsumeikan.PBL2",
-            "processId": 9331,
+            "processId": 8311,
             "exited": false
         }
     ],
@@ -150,7 +150,7 @@
         "Behavior": 0
     },
     "m_FilterOptions": {
-        "m_Filter": "",
+        "m_Filter": "found",
         "m_UseRegularExpressions": false,
         "m_MatchCase": false
     },
